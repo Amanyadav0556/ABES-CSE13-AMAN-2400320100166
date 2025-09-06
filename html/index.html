@@ -1,45 +1,150 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aman Yadav</title>
+    <title>Aman Yadav - Resume</title>
+    <style>
+        body {
+            background-color: #c7dfdf;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #e8eff1e9;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 5px solid #2c616c;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        header {
+            background-color: #8b0000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+        .profile {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .profile-img img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #17a27a;
+            object-fit: cover;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 2px solid #6d0404;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #fcd34d;
+            color: #000;
+        }
+        tr:nth-child(even) {
+            background-color: #fff2cc;
+        }
+        .section-title {
+            text-align: center;
+            color: #6d0404;
+            margin: 40px 0 20px 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #17a27a;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-     
-     <h1><center> ACADMIC INFORMATION   </center> </h1>
-     <table border="3" align="center" style="background-color: brown;">
-        <tr bgcolor="yellow">
-            <th> S.NO.</th>
-            <th> CLASS</th>
-            <th> BOARD </th>
-            <th>MARKS</th>
-            <th>DIVISION</th>
 
-            
-        </tr>
-        <tr>
-            <th> 1.</th>
-            <th> 10th</th>
-            <th> CBSE</th>
-            <th> 86%</th>
-            <th> A</th>
-        </tr>
-        <tr>
-            <th> 2.</th>
-            <th> 12th</th>
-            <th>CBSE</th>
-            <th> 82%</th>
-            <th> A</th>
-        </tr>
-        <tr>
-            <th>3.</th>
-            <th>B.TECH</th>
-            <th> AKTU</th>
-            <th>7.95 sgpa </th>
-            <th> A</th>
-        </tr>
-     </table>
+<div class="container">
+    <header>RESUME:</header>
+
+    <div class="profile">
+        <div class="profile-info">
+            <table>
+                <tr><th>Detail</th><th>Information</th></tr>
+                <tr><td>Name</td><td>Aman Yadav</td></tr>
+                <tr><td>Father Name</td><td>Rajendra Kumar</td></tr>
+                <tr><td>D.O.B</td><td>18/04/2004</td></tr>
+                <tr><td>Mobile No.</td><td>8009554945</td></tr>
+                <tr><td>Email</td>
+    <td><a href="mailto:aman2004@gmail.com">aman2004@gmail.com</a></td>
+</tr>
+<tr><td>Git ID</td>
+    <td><a href="https://github.com/Amanyadav0556" target="_blank">Amanyadav0556</a></td>
+</tr>
+
+            </table>
+        </div>
+        <div class="profile-img">
+            <img src="../pic.c-removebg-preview.jpg">
+        </div>
+    </div>
+
+    <div class="hobbies">
+        <h1 class="section-title">Hobbies</h1>
+        <table>
+            <tr><th>S.No</th><th>Hobby</th></tr>
+            <tr><td>1</td><td>Chess</td></tr>
+            <tr><td>2</td><td>Badminton</td></tr>
+            <tr><td>3</td><td>E-gaming</td></tr>
+        </table>
+    </div>
+
+    <div class="academics">
+        <h1 class="section-title">Academic Information:</h1>
+        <table>
+            <tr>
+                <th>S.NO.</th>
+                <th>CLASS</th>
+                <th>BOARD</th>
+                <th>MARKS</th>
+                <th>DIVISION</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>10th</td>
+                <td>CBSE</td>
+                <td>86%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>12th</td>
+                <td>CBSE</td>
+                <td>82%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>B.Tech</td>
+                <td>AKTU</td>
+                <td>7.95 SGPA</td>
+                <td>A</td>
+            </tr>
+        </table>
+    </div>
+</div>
 
 </body>
 </html>
