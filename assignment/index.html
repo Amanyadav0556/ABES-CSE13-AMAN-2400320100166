@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Enter Your Name</h2>
+
+    <input type="text" id="nameInput" placeholder="enter your name">
+
+    <button onclick="showGreeting()">Submit</button>
+
+    <h3 id="output"></h3>
+
+    <script>
+        function showGreeting() {
+            var name = document.getElementById("nameInput").value;
+            document.getElementById("output").innerHTML = "Hello, " + name + "! Welcome!";
+        }
+    </script>
+
+</body>
+</html>
